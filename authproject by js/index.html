@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="Logincontainer">
+        <form class="login" action="">
+
+            <h1>Welcome Back!</h1>
+            <p class="subtitle">Please login to your account</p>
+
+            <div class="emails">
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    autocomplete="current-password"
+                    required
+                >
+            </div>
+
+            <div class="passwords">
+                <label for="password">Password</label>
+                <input
+                    id="password"
+                    type="password"
+                    placeholder="Enter your password"
+                      autocomplete="current-password"
+                    required
+                >
+            </div>
+
+            <div class="forgot">
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <div class="submit">
+                <button type="submit">Login</button>
+
+                <p>
+                    Don't have an account?
+                    <a href="registred.html">Register</a>
+                </p>
+            </div>
+
+            <p id="loginmess"></p>
+
+        </form>
+    </div>
+  <script src="app.js"></script>
+</body>
+</html>

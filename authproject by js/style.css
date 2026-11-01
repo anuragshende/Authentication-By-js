@@ -1,0 +1,256 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Registration Container */
+.Registredcontainer {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+/* Registration Card */
+.registred {
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.registred h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+/* Input Groups */
+.emails,
+.passwords {
+    margin-bottom: 22px;
+}
+
+.emails p,
+.passwords p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+    margin-bottom: 8px;
+}
+
+/* Input Fields */
+.emails input,
+.passwords input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.emails input:focus,
+.passwords input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+
+/* Submit Section */
+.submit {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Register Button */
+.submit button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.35);
+}
+
+/* Login Link */
+.submit p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.submit a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.submit a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .Registredcontainer {
+        padding: 15px;
+    }
+
+    .registred {
+        padding: 28px 20px;
+    }
+
+    .registred h1 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.Logincontainer {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.login {
+    background: #fff;
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.login h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.emails,
+.passwords {
+    margin-bottom: 22px;
+}
+
+.emails label,
+.passwords label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.emails input,
+.passwords input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.emails input:focus,
+.passwords input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+
+.forgot {
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 22px;
+}
+
+.forgot a {
+    font-size: 13px;
+    color: #667eea;
+    text-decoration: none;
+}
+
+.submit button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.35);
+}
+
+.submit p {
+    text-align: center;
+    margin-top: 22px;
+    color: #666;
+    font-size: 13px;
+}
+
+.submit a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.submit a:hover,
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login {
+        padding: 28px 20px;
+    }
+
+    .login h1 {
+        font-size: 24px;
+    }
+}
